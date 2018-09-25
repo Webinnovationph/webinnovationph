@@ -60,7 +60,7 @@ contract ERC20 is ERC20Basic {
 contract BasicToken is ERC20Basic {
   using SafeMath for uint256;
   // timestamp when token release is enabled
-  uint256 public releaseTime = 1543140000;
+  uint256 public releaseTime = 1536917418;
   address owner;
   
   mapping(address => uint256) balances;
@@ -187,4 +187,3 @@ contract WEBN is StandardToken {
   }
 
 }
-
